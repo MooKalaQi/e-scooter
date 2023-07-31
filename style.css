@@ -1,0 +1,114 @@
+*{
+    font-family: "Ubuntu", sans-serif, Arial, Helvetica;
+    box-sizing: border-box;
+    color: #42444A;
+}
+.row{
+    width: 100%;
+}
+li{
+    list-style-type: none ;
+}
+ul{
+    height: 100%;
+}
+.btn-outline-secondary{
+    border: 1px solid #42444A;
+    color: #42444A;
+}
+.mt-5{
+    margin-top: 5rem!important;
+}
+.mt-lg-0{
+    margin-top: 0!important;
+}
+#top-nav{
+    border-bottom: 1px solid #42444a63;
+}
+.container{
+    margin: 0;
+    padding: 0 ;
+    max-width: 100%;
+}
+
+.btn_login{
+    background-color: none;
+    padding: 1 1.5rem;
+}
+.btn-signup{
+    background-color: #42444A;
+    color: white;
+    padding: 1rem 1.5rem;
+}
+
+.bi-arrow-right{
+    color: white;
+}
+.hero_buy-button{
+    border-radius: 0;
+}
+.btn-group > button{
+    background-color: white;
+    border-radius: 5rem;
+    border: 1px solid #42444A;
+}
+.features_item-card{
+    box-shadow: 0 13px 26.4px rgba(0, 0, 0, 0.059) ;
+    height: 10rem;
+    border: none;
+}
+.colors_others{
+    position: relative;
+    bottom: 10rem;
+}
+a:link , .a:active, a:visited  {
+    text-decoration: none;
+    color: white;
+}
+.nav-link{
+    color: #42444A!important;
+}
+.social_media-icons{
+    width: 2rem;
+    height: 2rem;
+    border: none;
+}
+.testimonials_card:hover{
+    border: 1px solid white;
+    box-shadow: 0 13px 38.42px rgba(0, 0, 0, 0.059);
+
+}
+
+
+@media only screen and (min-width: 768px){
+    hr{
+        width: 50%;
+        opacity: 100%;
+    }
+    hr:not([size]){
+        height: 8px;
+    }
+    h2{
+        font-size: 6rem;
+    }
+    .hero_description{
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .footer-elements{
+        position: relative;
+        bottom: 10rem;
+    }
+    .footer_element{
+        margin-top: 15rem;
+    }
+    .colors_other{
+        width: 20%;
+        height: 100%;
+    }
+    #footer{
+        margin-top: 10rem;
+    }
+}
